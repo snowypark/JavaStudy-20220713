@@ -11,8 +11,8 @@ public class MyInfo {
 		char name3 = '몬';
 		//char 자료형은 유니코드 \\u
 		
-		String address = "부산 동래구 사직동";
-		String name = "김준일"+ "";
+		String address = "부산 ---- ----";
+		String name = "sample"+ "";
 		
 		System.out.println("결과:" + (10+20));
 		
