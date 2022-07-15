@@ -4,14 +4,14 @@ public class MyInfo {
 
 	public static void main(String[] args) {
 		
-		int age = 29;
+		int age = 20;
 		
 		char name1 = '포';
 		char name2 = '켓';
 		char name3 = '몬';
 		//char 자료형은 유니코드 \\u
 		
-		String address = "부산 ---- ----";
+		String address = "태초마을 ---- ----";
 		String name = "sample"+ "";
 		
 		System.out.println("결과:" + (10+20));
