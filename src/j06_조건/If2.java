@@ -26,10 +26,8 @@ public class If2 {
 				System.out.println("0 ~ 59점 사이입니다.");
 				result = "F";
 			}
-		
-			
-		
-		
+					
+				
 		System.out.println("결과: " + result);
 		
 			
