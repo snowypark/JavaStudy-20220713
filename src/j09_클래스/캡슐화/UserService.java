@@ -20,29 +20,25 @@ public class UserService {
 
 		System.out.print("아이디: ");
 		username = scanner.nextLine();
-		if (isStrBlank(username));
-		{
+		if (isStrBlank(username)){
 			return;
 		}
-		
+
 		System.out.print("비밀번호: ");
 		password = scanner.nextLine();
-		if (isStrBlank(password));
-		{
+		if (isStrBlank(password)){
 			return;
 		}
 
 		System.out.print("이름: ");
 		name = scanner.nextLine();
-		if (isStrBlank(name))
-			;
-		{
+		if (isStrBlank(name)){
 			return;
 		}
 
 		System.out.print("이메일: ");
 		email = scanner.nextLine();
-		if (isStrBlank(email));	{
+		if (isStrBlank(email)){
 			return;
 		}
 
