@@ -4,6 +4,7 @@ public class SamsungFactory extends Factory {
 
 	public SamsungFactory(int factoryNumber) {
 		super(factoryNumber);
+		//생성자
 	}
 	
 	@Override
