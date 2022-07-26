@@ -1,4 +1,4 @@
-package j11_상속factory;
+package j11_상속.factory;
 
 public class FactoryMain2 {
 
@@ -7,7 +7,7 @@ public class FactoryMain2 {
 		// 상속 받아야 가능
 		// 업캐스팅
 
-		Factory factory1 = new SamsungFactory(1);
+		Factory factory1 = new SamsungFactory(1); // 인스턴스
 		Factory factory2 = new LGFactory(1);
 		
 		

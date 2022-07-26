@@ -1,4 +1,4 @@
-package j11_상속factory;
+package j11_상속.factory;
 
 public class SamsungFactory extends Factory {
 
