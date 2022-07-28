@@ -49,6 +49,7 @@ public class UserService {
 		for(int i = 0; i <UserArray.length; i++) {			
 			System.out.println("사용자 이름: " +UserArray[i].getUsername()
 					+"\n이름: " + UserArray[i].getName());
+			
 		}
 	}
 
