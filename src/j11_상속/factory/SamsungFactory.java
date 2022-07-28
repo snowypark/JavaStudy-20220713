@@ -4,13 +4,12 @@ public class SamsungFactory extends Factory {
 
 	public SamsungFactory(int factoryNumber) {
 		super(factoryNumber);
-		//생성자
 	}
 	
 	@Override
-	public void starts() {
+	public void start() {
 		System.out.print("삼성 ");
-		super.starts();
+		super.start();
 	}
 	
 	@Override
@@ -22,5 +21,5 @@ public class SamsungFactory extends Factory {
 	public void produceSmartPhone() {
 		System.out.println("삼성 스마트폰을 생산합니다.");
 	}
-	
+
 }

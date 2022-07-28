@@ -5,11 +5,11 @@ public class LGFactory extends Factory {
 	public LGFactory(int factoryNumber) {
 		super(factoryNumber);
 	}
-
+	
 	@Override
-	public void starts() {
+	public void start() {
 		System.out.print("LG ");
-		super.starts();
+		super.start();
 	}
 	
 	@Override
@@ -18,8 +18,8 @@ public class LGFactory extends Factory {
 		super.stop();
 	}
 	
-
-	public void produceSmartTV() {
+	public void produceSmartTv() {
 		System.out.println("LG 스마트 TV를 생산합니다.");
 	}
+
 }
