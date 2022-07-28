@@ -4,7 +4,7 @@ public class PersonMain {
 
 	public static void main(String[] args) {
 		
-		String[] names = {"김준일", "서재효", "전나경"};
+		String[] names = {"ㅇㅇㅇ", "ㅁㅁㅁ", "ㄴㄴㄴ"};
 		int[] ages = {29, 25, 23};
 		
 		
@@ -15,6 +15,8 @@ public class PersonMain {
 		
 		Person person1 = new Person();
 	
+		person1.setName();
+		System.out.println(person1.getName());
 	}
 
 }

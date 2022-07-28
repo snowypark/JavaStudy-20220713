@@ -20,7 +20,11 @@ public class Person {
 	}
 	
 	public void setName() {
-		//setterd
+		this.name = name;
 	}
+	
+	 public String getName() {
+		 return name;
+	 }
 
 }
