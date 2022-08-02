@@ -17,7 +17,10 @@ public class Product {
 	private String createDate; 			// 생산일자
 
 	/*
-	 * 20220802 스타벅스 텀블러 텀블러 2022-08-02
+	 * 20220802
+	 * 스타벅스 텀블러 
+	 * 텀블러 
+	 * 2022-08-02
 	 */
 
 	public static Product builder() {
@@ -57,7 +60,6 @@ public class Product {
 	}
 
 	public Product() {
-		// TODO Auto-generated constructor stub
 	}
 
 }
