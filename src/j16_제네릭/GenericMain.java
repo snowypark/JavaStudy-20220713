@@ -8,11 +8,11 @@ public class GenericMain {
 		GenericTest<Integer, String> genericTest = new GenericTest<Integer, String>();
 		GenericTest<String, Car> genericTest2 = new GenericTest<String, Car>();
 		
-		genericTest.setKey("100");
-		genericTest.setValue(100);
+		genericTest.setKey(100);
+		genericTest.setValue("원");
 		
 		System.out.println(genericTest.getKey() + genericTest.getValue());
-		
+
 	}
 
 }
