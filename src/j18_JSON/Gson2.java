@@ -1,4 +1,4 @@
-package J18_JSON;
+package j18_JSON;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

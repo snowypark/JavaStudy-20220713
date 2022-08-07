@@ -1,4 +1,4 @@
-package J18_JSON;
+package j18_JSON;
 
 import java.util.List;
 
