@@ -1,5 +1,7 @@
 package j19_익명클래스.람다식;
 
+import java.util.function.Function;
+
 public class StrTestMain {
 
 	public static void main(String[] args) {
@@ -21,6 +23,9 @@ public class StrTestMain {
 		
 		String grade = strGrade.test("80");
 		System.out.println(grade);
+		
+		Function<Integer, String> f = (num) -> Integer.toString(num);
+		System.out.println(f.apply(100));
 		
 	}
 
