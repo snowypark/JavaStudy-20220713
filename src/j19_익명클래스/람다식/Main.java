@@ -39,6 +39,9 @@ public class Main {
 		Math<Double, Double> plusMath4 = (v1, v2) -> v1 + v2; //익명클래스
 		
 		System.out.println(plusMath3.calc(50.22, 10.1));
+		
+		
+		
 
 	}
 
