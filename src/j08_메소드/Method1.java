@@ -11,7 +11,7 @@ public class Method1 {
 			int commandIndex = data.indexOf("@") + 1;
 			int contentIndex = data.indexOf(":");
 			int nextCommandIndex = data.indexOf("@", 1);
-
+			
 			String command = data.substring(commandIndex, contentIndex);
 			String content = nextCommandIndex != -1 ? data.substring(contentIndex + 1, nextCommandIndex)
 					: data.substring(contentIndex + 1);
